@@ -2,6 +2,8 @@
 
 It's a very simple game project to be more familiar with JavaScript.
 
+**Link to project:** https://defalterxd.github.io/Rock_Paper_Scissors/
+
 ![website showcase](./image_showcase.gif)
 
 ## How It's Made:
