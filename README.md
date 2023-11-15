@@ -22,7 +22,7 @@ In this project, I was able to make a new branch from a 'trunk' aka main. Being 
 **Site used for icons:** https://www.flaticon.com/
 
 <ol>
-<h2>Authors:</h2>
+<h4>Authors:</h4>
 <li> Cuputo - rock</li>
 <li> iconading - paper</li>
 <li>Cap Cool - scissors</li>
