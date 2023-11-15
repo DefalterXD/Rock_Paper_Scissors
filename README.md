@@ -1,6 +1,6 @@
 # Rock_Paper_Scissors
 
-It's a very simple game project to be more familiar with JavaScript.
+It's a simple game project to be more familiar with JavaScript events.
 
 **Link to project:** https://defalterxd.github.io/Rock_Paper_Scissors/
 
@@ -8,12 +8,22 @@ It's a very simple game project to be more familiar with JavaScript.
 
 ## How It's Made:
 
-**Tech used:** HTML, JavaScript
+**Tech used:** HTML, CSS, JavaScript
 
-I first built a random selection function for the computer. Then began to build a function where a round would be held between the player and the computer with all the condition for each choices: 'Rock', 'Paper' and 'Scissors'. Before this function, I already declare a variable with the prompt for the player.
-After that function I start build a 'game' function where would be keeping a score. The temporary problem was with keeping a score in a function. Instead I keep a scores in a global stack intstead.
-Execute all calls through a loop. And lastly, we check whether the player or the computer has won, or whether it’s a draw.
+First, I had to make the ui itself so that there would be something for the user to interact with.
+Then in javascript I had to collect all the necessary elements from the DOM in order to: 
+Display who won, display the current score and the winning inscription of one of the parties (while removing the buttons for interaction so that the score was capped up to 5)
 
 ## Lesson Learned:
 
-In this project, I realized how to use a 'functions', 'conditions' and 'other methods'. Where is the scope and how to interact with it, as well as the for loop.
+In this project, I was able to make a new branch from a 'trunk' aka main. Being more comfortable with events in javascript and using new array methods.
+
+## Reference:
+**Site used for icons:** https://www.flaticon.com/
+
+<ol>
+<h2>Authors:</h2>
+<li> Cuputo - rock</li>
+<li> iconading - paper</li>
+<li>Cap Cool - scissors</li>
+</ol>

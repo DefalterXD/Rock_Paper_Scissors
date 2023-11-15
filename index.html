@@ -3,9 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <title>Rock Paper Scissors</title>
 </head>
 <body>
+  <header class="head_container">
+    <h1 class="title">Rock Paper Scissors</h1>
+    <p class="phrase">Player vs Computer!</p>
+  </header>
+  <section class="score">
+    <span class = "match">
+      <div class="player">Player score:</div>
+      vs
+    <div class="computer">Computer score:</div>
+  </span>
+  </section>
+  <section id="pick">
+    <h2 class="select">Pick your weapon!</h2>
+    <div class="select_container">
+      <button class="rock"><img src="./img/fist.png" alt="Cuputo"></button>
+      <button class="paper"><img src="./img/hand-paper.png" alt=""></button>
+      <button class="scissors"><img src="./img/scissors.png" alt=""></button>
+    </div>
+  </section>
+  <footer class="foo_container">
+    <h3 class="foo_made">Made by <a href="https://github.com/DefalterXD">DefalterXD</a></h3>
+  </footer>
   <script src="./script.js"></script>
 </body>
 </html>

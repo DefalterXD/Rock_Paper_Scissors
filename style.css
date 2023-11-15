@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;500;700&family=Lato:wght@100;400;700&family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Nunito sans', sans-serif;
+    background-color: #e5faf8;
+}
+
+/* ----The header start---- */
+.head_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.title {
+    font-size: 4rem;
+    font-family: 'Alegreya Sans';
+}
+
+.phrase {
+    font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+}
+
+/* ----The header end---- */
+
+
+/* ----The match score start---- */
+.score {
+    align-self: center;
+    width: 500px;
+}
+
+.match {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+}
+
+/* ----The match score end---- */
+
+/* ----Button section start---- */
+#pick {
+    align-self: center;
+    text-align: center;
+}
+
+.select {
+    font-family: 'Alegreya sans';
+    font-size: 3rem;
+}
+
+.select_container {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    height: 230px;
+}
+
+.rock,
+.paper,
+.scissors {
+    border-radius: 50%;
+    padding: 1rem;
+    border: 2px solid #000;
+}
+
+.rock:hover,
+.paper:hover,
+.scissors:hover {
+    cursor: pointer;
+    border: 1px solid #fff;
+} 
+
+.rock {
+    align-self: center;
+    background-color: #b32332;
+}
+
+.scissors {
+    align-self: center;
+    background-color: #aa2274;
+}
+
+.paper {
+    align-self: flex-end;
+    background-color: #eec5aa;
+}
+
+.rock img,
+.paper img, 
+.scissors img {
+    width: 100px;
+    height: 100px;
+}
+
+/* ----Button section end---- */
+
+/* ----Footer container start---- */
+.foo_container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    font-family: 'Alegreya sans';
+}
+
+.foo_made {
+    font-size: 1.5rem;
+    align-self: center;
+}
+
+.foo_made a,
+.foo_made a:hover,
+.foo_made a:visited{
+    color: #000;
+    text-decoration: none;
+}
+/* ----Footer container end---- */
