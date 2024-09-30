@@ -28,9 +28,13 @@ Then in JavaScript I had to collect all the necessary elements from the DOM in o
 
 ## Lesson Learned:
 
-In this project, I was able to make a new branch and using it from a 'trunk' aka main. <br>
-Building a new UI for a 'gameplay'. <br>
-Being more comfortable with DOM manipulation and eventListeners and using unfamiliar array methods.
+After that project I learned:
+<ul>
+  <li>I was able to make a new branch and using it from a 'trunk' aka main. </li>
+  <li>Building a new UI for a 'gameplay'.</li>
+  <li>Being more comfortable with DOM manipulation and eventListeners and using unfamiliar array methods.</li>
+</ul>
+
 
 ## Reference:
 **Site used for icons:** https://www.flaticon.com/
